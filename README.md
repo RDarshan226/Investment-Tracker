@@ -1,12 +1,12 @@
 # Investment Tracker PWA
 
-Version 1.0.0 — neon-themed installable Progressive Web App based on the uploaded `MF.html` Step-Up SIP Allocation Framework.
+Version 1.1.0 — neon-themed installable Progressive Web App based on the uploaded `MF.html` Step-Up SIP Allocation Framework.
 
 ## Included
 - Splash screen with version number.
 - Dynamic monthly SIP allocation across the six funds and percentages in the source HTML (35/20/10/15/10/10).
 - Editable fund allocation weights; allocation amounts are normalised if entered weights do not sum to 100%.
-- Target corpus, starting monthly SIP, annual step-up, mid-tenure SIP change, tenure and assumed return controls.
+- Target corpus, annual step-up, mid-tenure SIP change, tenure and assumed return controls. Required starting SIP is solved automatically to meet the target; average monthly contribution across the projection tenure is displayed.
 - Year-by-year monthly-compounding projection and target-achievability indicator.
 - Portfolio table for invested/current values, gain/loss, return percentage and current-vs-target allocation drift.
 - Local browser storage and JSON import/export.
